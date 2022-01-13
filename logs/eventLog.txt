@@ -1,0 +1,3 @@
+13.01.2022	12:35:29	99f9a614-636b-4950-8ec3-e53ea88332e7	Log event emitted!
+13.01.2022	12:35:47	66d451e3-2b0e-4c87-9be6-1794f7c8aa35	Log event emitted!
+13.01.2022	12:36:24	5cafbc0b-8f18-4b66-b137-38512722cc14	Log event emitted!
