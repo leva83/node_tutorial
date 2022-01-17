@@ -12,3 +12,8 @@ body {
     display: grid;
     place-content: center;
 }
+
+img {
+    height: 200px;
+    width: 400px;
+}
