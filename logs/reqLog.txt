@@ -76,3 +76,15 @@
 20220118	11:52:15	d7d66f57-b282-4c4f-91c9-234c52e54a5c	DELETE	undefined	/employees/3
 20220118	11:56:39	1ed5c6ec-7033-4da2-9028-fd8a660e52cd	DELETE	undefined	/employees
 20220118	11:58:04	179557a6-f0f3-461e-8602-4f47452de5af	PUT	undefined	/employees
+20220118	13:20:49	d65fd08d-f436-4191-87ed-808c2ced41dd	PUT	undefined	/employees
+20220118	13:22:10	290de876-20bf-4286-9bd1-2419bb6e1baf	PUT	undefined	/employees
+20220118	13:22:24	f8eaf4a8-f75a-4517-af2c-9a5512b0f5bb	GET	undefined	/employees
+20220118	13:23:58	8d6358ad-6346-4262-b25e-8688da6d4f13	DELETE	undefined	/employees
+20220118	13:24:06	e02dbd74-bdd1-4cd4-94e0-083c5c617afe	DELETE	undefined	/employees
+20220118	13:24:18	c434adf9-b460-4a1b-a322-53b94a51ac2f	DELETE	undefined	/employees
+20220118	13:26:35	ababfdcf-a78c-4fab-90ed-f85f748bd6b9	GET	undefined	/employees
+20220118	13:26:48	524ebce9-a121-4548-b72b-637924ddc396	DELETE	undefined	/employees
+20220118	13:27:36	6a49029d-0e0e-4cb7-befd-4dd36650f4db	PUT	undefined	/employees
+20220118	13:27:51	34127a8f-1ba7-45cd-875c-6bfcc0d6cd59	PUT	undefined	/employees
+20220118	13:28:04	936ff228-2d8d-4195-a4b5-d50a3bc2f4d2	PUT	undefined	/employees
+20220118	13:28:51	2f02ced3-79a6-48f0-90fb-c1b8b5dc986c	POST	undefined	/employees
