@@ -88,3 +88,7 @@
 20220118	13:27:51	34127a8f-1ba7-45cd-875c-6bfcc0d6cd59	PUT	undefined	/employees
 20220118	13:28:04	936ff228-2d8d-4195-a4b5-d50a3bc2f4d2	PUT	undefined	/employees
 20220118	13:28:51	2f02ced3-79a6-48f0-90fb-c1b8b5dc986c	POST	undefined	/employees
+20220118	21:26:02	ff3e2370-2189-4feb-b84f-0fb6355930f1	POST	undefined	/register
+20220118	21:26:46	bf66959b-fc1c-4460-a899-770bd5dd31b9	POST	undefined	/register
+20220118	21:27:31	d2455140-8458-4052-8674-42adf8df1c2e	POST	undefined	/auth
+20220118	21:27:44	f009392f-c3e0-49c7-94a2-fa08453321c7	POST	undefined	/auth
