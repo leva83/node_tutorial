@@ -65,3 +65,14 @@
 20220117	17:32:47	192aea80-2638-42fe-9647-b841ddc6976e	GET	undefined	/new-page.html
 20220117	17:32:47	09b198ef-1293-4aaf-a786-c4ae554a90cf	GET	undefined	/img/img1.jpg
 20220117	17:32:47	fc3c6184-77df-4861-a0e4-0fea81f1a311	GET	undefined	/css/style.css
+20220118	11:40:00	dc7fd6c0-cf77-4059-aa1c-5491b5a5ff42	GET	undefined	/employees
+20220118	11:40:28	62bf8972-5ee5-4747-9d11-e2a36d9f0465	GET	undefined	/employees/1
+20220118	11:41:57	dfd52d9a-5ab1-4567-a8c2-f20efada162b	GET	undefined	/employees/1
+20220118	11:42:21	1da69a26-634f-4dd4-ab62-6f7ec3b7aa7e	GET	undefined	/employees
+20220118	11:43:01	6bb4a1cc-7115-4dd2-a048-22c49106aa81	POST	undefined	/employees
+20220118	11:47:09	b9552e29-a8f9-4b98-8acb-156c411aac98	POST	undefined	/employees
+20220118	11:49:28	44fc8ce6-6978-45d9-81e4-9f7432a50afc	DELETE	undefined	/1
+20220118	11:49:39	300705f5-a366-444d-b7a8-8ba6a3b9fec3	DELETE	undefined	/employees/1
+20220118	11:52:15	d7d66f57-b282-4c4f-91c9-234c52e54a5c	DELETE	undefined	/employees/3
+20220118	11:56:39	1ed5c6ec-7033-4da2-9028-fd8a660e52cd	DELETE	undefined	/employees
+20220118	11:58:04	179557a6-f0f3-461e-8602-4f47452de5af	PUT	undefined	/employees
