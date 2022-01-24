@@ -14,18 +14,25 @@ const handleLogin = async (req, res) => {
     const foundUser = usersDB.users.find(person => person.username === user);
     if (!foundUser) return res.sendStatus(401); //Unauthorized 
     // evaluate password 
-    const match = await bcrypt.compare(pwd, foundUser.password);
-    if (match) {
+    //const match = await bcrypt.compare(pwd, foundUser.password);
+    if (pwd === foundUser.password) {
+
+        const roles = Object.values(foundUser.roles);
         // create JWTs
         const accessToken = jwt.sign(
-            { "username": foundUser.username },
+            {
+                "UserInfo": {
+                    "username": foundUser.username,
+                    "roles": roles
+                }
+            },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: '60s'}
+            { expiresIn: '60s' }
         );
         const refreshToken = jwt.sign(
             { "username": foundUser.username },
             process.env.REFRESH_TOKEN_SECRET,
-            { expiresIn: '1d'}
+            { expiresIn: '1d' }
         );
         // saving refresh token with current user
         const otherUsers = usersDB.users.filter(person => person.username !== foundUser.username);
@@ -38,6 +45,7 @@ const handleLogin = async (req, res) => {
         res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 });
         res.json({ accessToken });
     } else {
+        console.log("password don't match")
         res.sendStatus(401);
     }
 }
